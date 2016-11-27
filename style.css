@@ -1,6 +1,7 @@
 body {
 	background-color: #d5e8ef;
 	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
 }
 
 h1 {
@@ -11,23 +12,35 @@ h2 {
 	justify-content: left;
 }
 
-.nav {
+ul li {
 	list-style: none;
 	clear: both;
+	text-align: left;
 }
 
-.col-md-3 {
-}
-
-.col-md-8 {
+ul {
+	justify-content: left;
 }
 
 .images img {
 	max-width: 75%;
-	margin: 5%
+	margin: 5% auto;
 }
 
 .images p {
 	text-align: center;
 }
+
+footer {
+	padding: 5%;
+	text-align: right;
+}
+
+@media (max-width: 720px) {
+	.images img {
+		margin: auto;
+	}
+}
+
+
 
