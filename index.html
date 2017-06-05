@@ -3,55 +3,49 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale = 1">
-	<title>Michael Watson | Human</title>
-	<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<title>Michael Watson | Developer</title>
+	<link rel="stylesheet" href="./bower_components/materialize/dist/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
-<body ng-app="myApp">
-	<div class="container-fluid">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			  <!-- <div class="container-fluid"> -->
-			    <div class="navbar-header">
-				      <a class="navbar-brand brand navbar-left">Michael Watson</a>
-				      <a class="navbar-brand brand second">Developer</a>
-		        </div>
-
-			    	<div class="navbar-right">
-				      	<ul class="nav nav-pills nav-justified">
-							  <li role="presentation"><a href="#/">Home</a></li>
-							  <li role="presentation"><a href="#/myposts">About</a></li>
-							  <li role="presentation"><a href="#/create">Projects</a></li>
-						</ul>
+<body>
+	<!-- <div class="container"> -->
+		<div class="row">
+			<div class="col s12 m3 section">
+				<div class="name center">
+				 	<h2>Michael Watson</h2>
+				 	<h4>Developer</h4>
+				 </div>
+				<div class="links center">
+			 		<ul class="">
+					  <li id="about-link"><a href="#">About</a></li>
+					  <li id="projects"><a href="#">Projects</a></li>
+					  <li><a href="https://www.linkedin.com/in/michael-watson615/">LinkedIn</a></li>
+					  <li><a href="https://github.com/mwatson615">Github</a></li>
+					</ul>
 					</div>
-			<!-- </div> -->
-		</nav>
-		<div ng-view>
-			
-		</div>
-		<!-- <div class="page-header">
-			<h1>Michael Watson</h1>
-			<h2>Developer</h2>
-		</div> -->
-		<div class="row"></div>
-			<div class="col-sm-3">
-				<ul>
-					<li><a class="links" href="https://www.linkedin.com/in/michael-watson615/">LinkedIn</a></li>
-					<li><a class="links" href="https://github.com/mwatson615">Github</a></li>
-				</ul>
 			</div>
+			<div class="col s12 m7 offset-m1">
+				      <div class="row center" id="about-me">
+				          <div class="card">
+				            <div class="card-image">
+				              <img src="img/giantrocks.jpg">
+				            </div>
+				            <div class="card-content">
+				              <p class="flow-text">Hello!<br>I am a developer of JavaScript, NodeJS, and soon Android.  A graduate of Nashville Software School and Tennessee State University's College of Public Service and Urban Affairs, a hiker of the Cumberland Plateau, and a writer of comedy for stage and screen.  Click a link to see some of my work!</p>
+				            </div>
+				          </div>
+				        </div>
+				      </div>
+			<!-- </div> -->
+		</div>
 			<footer class="text-right">
 				<p>&copy Michael Watson 2017</p>
 			</footer>
-	</div>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/angular/angular.min.js"></script>
-<script src="bower_components/angular-route/angular-route.min.js"></script>
-<script src="app/app.js"></script>
-<script src="app/controllers/homeCtrl.js"></script>
-<script src="app/controllers/aboutCtrl.js"></script>
-<script src="app/controllers/projectsCtrl.js"></script>
+<script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
