@@ -1,51 +1,62 @@
 body {
-	background: url(bradybluff.jpg) no-repeat center center fixed; 
+	background: url(img/bradybluff.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Indie Flower', cursive;
 	font-size: 2em;
-	/*color: #c2c5c6;*/
 }
 
-.page-header {
-	color: #dadee5;
+.name {
+	color: white;
 }
 
-h1 {
-	justify-content: left;
-}
-
-h2 {
-	justify-content: left;
-}
-
-ul li {
+ul > li {
 	list-style: none;
-	clear: both;
-	text-align: left;
 }
 
 ul {
-	justify-content: left;
+	display: inline-block;
+	justify-content: space-between;
 }
 
-.images img {
-	max-width: 75%;
-	margin: 5% auto;
+#about-me,
+#projectId {
+	display: none;
 }
 
-.images p {
-	text-align: center;
+.projects {
+	height: 50vh;
+	margin-top: 7vh;
 }
 
-.about-me {
-	margin-top: 15px;
+.card {
+	height: auto;
+	border-radius: 15px;
+}
+
+.aboutImg {
+	max-height: 70vh;
+}
+
+.projectImg {
+	height: inherit;
+}
+
+#about-me {
+	margin-top: 3%;
+	max-height: 80vh;
+	max-width: 490px;
 }
 
 .links {
+	background: rgba(255,255,255,0.9);
+	box-shadow: inset 0 0 1em .5em, 0 0 .5em .5em;
 	color: #dadee5;
+	border-radius: 90px;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
 }
 
 footer {
@@ -55,10 +66,4 @@ footer {
 	height:30px;
 	width:100%;
 	color: #dadee5;
-}
-
-@media (max-width: 720px) {
-	.images img {
-		margin: auto;
-	}
 }
