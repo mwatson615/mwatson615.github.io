@@ -1,19 +1,18 @@
 
-
-
-function showOne(divId) {
-	console.log("hi there")
-	$(".showInfo").each(function() {
-		if ($(this).attr("id") == divId) {
-			$(this).show("slow")
-		} else {
-			$(this).hide(600);
-		}
+$(document).ready(function() {
+	$(".showView").click(function(el) {
+	$(".infoDiv").hide()
+	showOne(el.target.hash);
 	})
-}
-$("#about-link").click(function() {
-showOne();
 })
+
+function showOne(target) {
+		if (target === "#about-me" ) {
+			$("#about-me").toggle("slow")
+		} else if (target === "#projectId") {
+			$("#projectId").toggle("slow")
+		}
+	}
 
 $('.modal').modal({
 	dismissible: true

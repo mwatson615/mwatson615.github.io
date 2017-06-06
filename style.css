@@ -8,21 +8,21 @@ body {
 	font-size: 2em;
 }
 
-.page-header {
+/*.page-header {
 	color: #dadee5;
-}
+}*/
 
 .name {
 	color: white;
 }
 
-h1 {
+/*h1 {
 	justify-content: left;
 }
 
 h2 {
 	justify-content: left;
-}
+}*/
 
 ul > li {
 	list-style: none;
@@ -33,30 +33,23 @@ ul {
 	justify-content: space-between;
 }
 
-.showInfo {
+#about-me,
+#projectId {
 	display: none;
 }
 
 .projects {
-	height: 85vh;
+	height: 50vh;
 	margin-top: 7vh;
-	/*margin-left: 5%;*/
 }
 
 .card {
-	max-height: 90vh;
+	height: auto;
 	border-radius: 15px;
-	/*margin-top: 5%;*/
-	/*margin: 5% 2.5% 5% 2.5%;*/
 }
 
-.images img {
-	max-width: 75%;
-	margin: 5% auto;
-}
-
-.images p {
-	text-align: center;
+.projectImg {
+	height: inherit;
 }
 
 .about-me {
@@ -80,10 +73,4 @@ footer {
 	height:30px;
 	width:100%;
 	color: #dadee5;
-}
-
-@media (max-width: 720px) {
-	.images img {
-		margin: auto;
-	}
 }
