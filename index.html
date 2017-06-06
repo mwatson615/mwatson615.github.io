@@ -6,6 +6,7 @@
 	<title>Michael Watson | Developer</title>
 	<link rel="stylesheet" href="./bower_components/materialize/dist/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
@@ -25,8 +26,8 @@
 					</ul>
 					</div>
 			</div>
-			<div class="col s12 m7 offset-m1">
-				      <div class="row center" id="about-me">
+			<div class="col s12 m7 offset-m1 showInfo" id="about-me">
+				      <div class="row center">
 				          <div class="card">
 				            <div class="card-image">
 				              <img src="img/giantrocks.jpg">
@@ -37,7 +38,40 @@
 				          </div>
 				        </div>
 				      </div>
-			<!-- </div> -->
+		<div class="col s12 m9">
+			  <div class="card projects col s5 offset-s1">
+			  	<h2 class="header center-align flow-text">Superlative</h2>
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="img/superlative.png">
+			    </div>
+			    <div class="card-content center-align">
+			      <p><a href="#superlativeInfo"">Info</a></p>
+			      <p><a href="https://mwatson615.github.io/front-end-capstone-project/">Deployed</a></p>
+			      <p><a href="https://github.com/mwatson615/front-end-capstone-project">Repo</a></p>
+			    </div>
+			       <div id="superlativeInfo" class="modal">
+				    <div class="modal-content">
+				      <p class="flow-text">Superlative is an app that allows users to vote on the greatest or worst things.  Users register and, once logged in, can create, edit, and delete their own posts and upvote others'.  The app uses Firebase for back-end, and AngularJS and Bootstrap for the client.</p>
+				    </div>
+				  </div>
+			  </div>
+			    <div class="card projects col s5 offset-s1">
+			    	<h2 class="header center-align flow-text">SNAP Test</h2>
+				    <div class="card-image waves-effect waves-block waves-light">
+				      <img class="activator" src="img/snaptest-results.png">
+				    </div>
+				    <div class="card-content center-align">
+				      <p><a href="#snapInfo">Info</a></p>
+				      <p><a href="https://www.snaptest.help">Deployed</a></p>
+				      <p><a href="https://github.com/mwatson615/snap-determination-capstone">Repo</a></p>
+				    </div>
+				    <div id="snapInfo" class="modal">
+				    	<div class="modal-content">
+				      		<p class="flow-text">SNAP Test is a SNAP (Food Stamp) determination app that enables users to check whether their household may be eligible for SNAP benefits according to TN and USDA policies.  Full-stack web app using AngularJS and Materialize for the client; NodeJS, Express, and MongoDB with Mongoose ORM for back-end.</p>
+				    	</div>
+				    </div>
+				    </div>
+				  </div>
 		</div>
 			<footer class="text-right">
 				<p>&copy Michael Watson 2017</p>

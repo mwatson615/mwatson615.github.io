@@ -1,5 +1,20 @@
 
-$("#about-link").click(function() {
+
+
+function showOne(divId) {
 	console.log("hi there")
-	$("#about-me").show("slow")
+	$(".showInfo").each(function() {
+		if ($(this).attr("id") == divId) {
+			$(this).show("slow")
+		} else {
+			$(this).hide(600);
+		}
+	})
+}
+$("#about-link").click(function() {
+showOne();
+})
+
+$('.modal').modal({
+	dismissible: true
 })

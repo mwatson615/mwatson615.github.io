@@ -33,8 +33,21 @@ ul {
 	justify-content: space-between;
 }
 
+.showInfo {
+	display: none;
+}
+
+.projects {
+	height: 85vh;
+	margin-top: 7vh;
+	/*margin-left: 5%;*/
+}
+
 .card {
 	max-height: 90vh;
+	border-radius: 15px;
+	/*margin-top: 5%;*/
+	/*margin: 5% 2.5% 5% 2.5%;*/
 }
 
 .images img {
