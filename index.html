@@ -10,72 +10,71 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
-	<!-- <div class="container"> -->
 		<div class="row">
 			<div class="col s12 m3 section">
-				<div class="name center">
+				<div class="name center-align">
 				 	<h2 class="flow-text">Michael Watson</h2>
 				 	<h4 class="flow-text">Developer</h4>
 				 </div>
-				<div class="links center">
+				<div class="links center-align col s4 offset-s4 m8 offset-m2">
 			 		<ul class="">
 					  <li class="flow-text"><a class="showView" href="#about-me">About</a></li>
 					  <li class="flow-text"><a class="showView" href="#projectId">Projects</a></li>
 					  <li class="flow-text"><a href="https://www.linkedin.com/in/michael-watson615/">LinkedIn</a></li>
 					  <li class="flow-text"><a href="https://github.com/mwatson615">Github</a></li>
 					</ul>
-					</div>
+				</div>
 			</div>
-			<div class="col s12 m7 infoDiv offset-m1" id="about-me">
-				      <div class="row center">
-				          <div class="card">
-				            <div class="card-image">
-				              <img src="img/giantrocks.jpg">
-				            </div>
-				            <div class="card-content">
-				              <p class="flow-text">Hello!<br>I am a developer of JavaScript, NodeJS, and soon Android.  A graduate of Nashville Software School and Tennessee State University's College of Public Service and Urban Affairs, a hiker of the Cumberland Plateau, and a writer of comedy for stage and screen.  Click a link to see some of my work!</p>
-				            </div>
-				          </div>
-				        </div>
-				      </div>
-		<div class="col s12 m9 infoDiv row" id="projectId">
+			<div class="col s12 m9 offset-m1 infoDiv" id="about-me">
+		        <div class="row center">
+			        <div class="card">
+			            <div class="card-image">
+			              	<img class="aboutImg" src="img/giantrocks.jpg">
+			            </div>
+			            <div class="card-content">
+			              	<p class="flow-text">I am a developer of JavaScript, NodeJS, and soon Android.  A graduate of Nashville Software School and Tennessee State University's College of Public Service and Urban Affairs, a hiker of the Cumberland Plateau, and a writer of comedy for stage and screen.  Click a link to see some of my work!</p>
+			            </div>
+			          </div>
+		        </div>
+	        </div>
+			<div class="col s12 m9 infoDiv row" id="projectId">
 			  <div class="card projects col s4 offset-s1 m5 offset-m1">
 			  	<h2 class="header center-align flow-text">Superlative</h2>
 			    <div class="card-image waves-effect waves-block waves-light">
-			      <img class="projectImg" src="img/superlative.png">
+			      	<img class="projectImg" src="img/superlative.png">
 			    </div>
 			    <div class="card-content center-align">
-			      <p class="flow-text"><a href="#superlativeInfo"">Info</a></p>
+			      <p class="flow-text"><a href="#superlativeInfo">Info</a></p>
 			      <p class="flow-text"><a href="https://mwatson615.github.io/front-end-capstone-project/">Deployed</a></p>
 			      <p class="flow-text"><a href="https://github.com/mwatson615/front-end-capstone-project">Repo</a></p>
 			    </div>
 			       <div id="superlativeInfo" class="modal">
-				    <div class="modal-content">
-				      <p class="flow-text">Superlative is an app that allows users to vote on the greatest or worst things.  Users register and, once logged in, can create, edit, and delete their own posts and upvote others'.  The app uses Firebase for back-end, and AngularJS and Bootstrap for the client.</p>
-				    </div>
+					    <div class="modal-content">
+					      <p class="flow-text">Superlative is an app that allows users to vote on the greatest or worst things.  Users register and, once logged in, can create, edit, and delete their own posts and upvote others'.  The app uses Firebase for back-end, and AngularJS and Bootstrap for the client.</p>
+					    </div>
 				  </div>
 			  </div>
-			    <div class="card projects col s4 offset-s2 m5 offset-m1">
+		      <div class="card projects col s4 offset-s2 m5 offset-m1">
 			    	<h2 class="header center-align flow-text">SNAP Test</h2>
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="projectImg" src="img/snaptest-results.png">
+				     	 <img class="projectImg" src="img/snaptest-results.png">
 				    </div>
 				    <div class="card-content center-align">
-				      <p class="flow-text"><a href="#snapInfo">Info</a></p>
-				      <p class="flow-text"><a href="https://www.snaptest.help">Deployed</a></p>
-				      <p class="flow-text"><a href="https://github.com/mwatson615/snap-determination-capstone">Repo</a></p>
+					      <p class="flow-text"><a href="#snapInfo">Info</a></p>
+					      <p class="flow-text"><a href="https://www.snaptest.help">Deployed</a></p>
+					      <p class="flow-text"><a href="https://github.com/mwatson615/snap-determination-capstone">Repo</a></p>
 				    </div>
 				    <div id="snapInfo" class="modal">
 				    	<div class="modal-content">
 				      		<p class="flow-text">SNAP Test is a SNAP (Food Stamp) determination app that enables users to check whether their household may be eligible for SNAP benefits according to TN and USDA policies.  Full-stack web app using AngularJS and Materialize for the client; NodeJS, Express, and MongoDB with Mongoose ORM for back-end.</p>
 				    	</div>
 				    </div>
-				    </div>
-				  </div>
+			    </div>
+			</div>
 		</div>
-			<footer class="text-right">
-				<p>&copy Michael Watson 2017</p>
-			</footer>
+		<footer class="text-right">
+			<p>&copy Michael Watson 2017</p>
+		</footer>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/materialize/dist/js/materialize.min.js"></script>

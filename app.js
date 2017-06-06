@@ -8,9 +8,9 @@ $(document).ready(function() {
 
 function showOne(target) {
 		if (target === "#about-me" ) {
-			$("#about-me").toggle("slow")
+			$("#about-me").show("slow")
 		} else if (target === "#projectId") {
-			$("#projectId").toggle("slow")
+			$("#projectId").show("slow")
 		}
 	}
 
