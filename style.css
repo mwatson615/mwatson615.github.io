@@ -10,6 +10,7 @@ body {
 
 .name {
 	color: white;
+	margin-bottom: 1em;
 }
 
 ul > li {
@@ -24,6 +25,10 @@ ul {
 #about-me,
 #projectId {
 	display: none;
+}
+
+#about-me {
+	padding-top: 1em;
 }
 
 .projects {
@@ -62,8 +67,8 @@ ul {
 footer {
 	position:fixed;
 	left:0px;
-	bottom:0px;
+	bottom:0;
 	height:30px;
 	width:100%;
-	color: #dadee5;
+	color : #dadee5;
 }
